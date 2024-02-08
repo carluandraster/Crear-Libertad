@@ -7,50 +7,43 @@
     <meta name="robots" content="index"/>
 	<meta name="description" content="Crear Ingeniería es una agrupación de estudiantes de la Facultad de Ingeniería de la Universidad Nacional de Mar del Plata cuyo objetivo principal es el máximo bienestar de los estudiantes. Es por eso que te pedimos el voto para las elecciones del CEI (Centro de Estudiantes de Ingeniería).">
 	<title>CREAR + LIBERTAD | Facultad de Ingeniería UNMdP</title>
+
+	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive-design.css">
+
+	<!-- Ícono -->
 	<link rel="shortcut icon" href="img/Logo-de-crear.png">
 </head>
 <body>
 	<div id="container">
 		<div id="centro">
-            <img src="img/Logo-de-crear.png" alt="Logo de Crear + Libertad" id="logo">
-			<h1>CREAR + LIBERTAD</h1>
+			<div class="flex-container">
+            	<img src="img/Logo-de-crear.png" alt="Logo de Crear + Libertad" id="logo">
+				<h1>CREAR + LIBERTAD</h1>
+			</div>
 			<h2>Facultad de Ingeniería</h2>
             <h3>Universidad Nacional de Mar del Plata</h3>
 			<h4 class="oculto" id="titulo">Redes sociales</h4>
 			<!-- Botones -->
 
 			<!-- Botón de 'Conocénos' -->
-			<a href="pag/index.html" id="sitio-web">
-			  <button class="boton" id="conocenos">
-				<img src="img/icono-web.png" alt="Visite nuestra web">
-  				<span>Conocénos</span>
-  				<svg width="34" height="34" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
-    				<circle cx="37" cy="37" r="35.5" stroke="black" stroke-width="3"></circle>
-    				<path d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z" fill="black"></path>
-  				</svg>
-			  </button>
-			 </a>
-
-			 <!-- Botón de redes sociales-->
-			 <a href="#" id="redes">
-			 	<button class="boton" id="redes-sociales">
-					<img src="img/usuarios.png" alt="Redes sociales">
-					<span>Redes sociales</span>
-					<svg width="34" height="34" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<circle cx="37" cy="37" r="35.5" stroke="black" stroke-width="3"></circle>
-						<path d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z" fill="black"></path>
-					</svg>
-			 	</button>
-			</a>
-
-			 <!-- Botón volver -->
-			<button class="atras oculto" id="btn-atras">
-				<svg height="16" width="16" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1024 1024"><path d="M874.690416 495.52477c0 11.2973-9.168824 20.466124-20.466124 20.466124l-604.773963 0 188.083679 188.083679c7.992021 7.992021 7.992021 20.947078 0 28.939099-4.001127 3.990894-9.240455 5.996574-14.46955 5.996574-5.239328 0-10.478655-1.995447-14.479783-5.996574l-223.00912-223.00912c-3.837398-3.837398-5.996574-9.046027-5.996574-14.46955 0-5.433756 2.159176-10.632151 5.996574-14.46955l223.019353-223.029586c7.992021-7.992021 20.957311-7.992021 28.949332 0 7.992021 8.002254 7.992021 20.957311 0 28.949332l-188.073446 188.073446 604.753497 0C865.521592 475.058646 874.690416 484.217237 874.690416 495.52477z"></path></svg>
-				<span>Volver</span>
-		  	</button>
+			<div class="prox-container">
+				<span id="proximamente">PROXIMAMENTE</span>
+				<a href="pag/index.html" id="sitio-web">
+			  		<button class="boton" id="conocenos">
+						<img src="img/icono-web.png" alt="Visite nuestra web">
+  						<span>Sitio web</span>
+  						<svg width="34" height="34" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+    						<circle cx="37" cy="37" r="35.5" stroke="black" stroke-width="3"></circle>
+    						<path d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z" fill="black"></path>
+  						</svg>
+			  		</button>
+			 	</a>
+			</div>
+			 
 			 <!-- Botón de 'Instagram' -->
-			 <a href="https://www.instagram.com/crearingenieria2023/" id="ig" class="oculto">
+			 <a href="https://www.instagram.com/crearingenieria2023/" id="ig">
 				<button class="boton" id="instagram">
 					<img src="img/icono-de-instagram.png" alt="Ícono de Instagram">
 					<span>Instagram</span>
@@ -60,22 +53,11 @@
 					</svg>
 				</button>
 			   </a>
-			   <!-- Botón de 'Threads' -->
-			   <a href="https://www.threads.net/@crearingenieria2023" id="th" class="oculto">
-				<button class="boton" id="threads">
-					<img src="img/Threads-Logo.png" alt="Ícono de Threads">
-					<span>Threads</span>
-					<svg width="34" height="34" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
-					  <circle cx="37" cy="37" r="35.5" stroke="black" stroke-width="3"></circle>
-					  <path d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z" fill="black"></path>
-					</svg>
-				</button>
-			   </a>
-
+			   
 			   <!-- Boton de Tutorias-->
 			   <a href="https://forms.gle/azpZwGM8TvP7mxiY7" id="tutorias">
 				<button class="boton" id="tutoria">
-					<img src="img/Logo-de-crear-negro.png" alt="Logo de Crear">
+					<img src="img/usuarios.png" alt="Logo de Crear">
 					<span>Tutorías</span>
 					<svg width="34" height="34" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
 					  <circle cx="37" cy="37" r="35.5" stroke="black" stroke-width="3"></circle>
@@ -109,6 +91,9 @@
 			   </a>
 		</div>
 	</div>
+
+	<!-- Javascript -->
 	<script src="js/codigo.js"></script>
+	
 </body>
 </html>

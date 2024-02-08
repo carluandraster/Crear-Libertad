@@ -1,0 +1,43 @@
+/* Responsive vertical */
+
+@media only screen and (max-height:840px){
+    .flex-container{
+        display: flex;
+        flex-direction:row;
+        align-items: space-around;
+    }
+}
+
+@media only screen and (max-height:720px){
+    #logo{
+        height:25vh;
+        width: auto;
+    }
+    #centro > h2, #centro > h1, #centro > a, #centro >h3, #centro >h4, .prox-container{
+        margin-bottom: 2vw;
+    }
+}
+
+/* Responsive horizontal */
+
+@media only screen and (max-width:436px){
+    #logo{
+        width:40vw;
+        height:auto;
+    }
+    #centro > h2, #centro > h1, #centro > a, #centro >h3, #centro >h4, .prox-container{
+        margin-bottom: 2vw;
+    }
+}
+
+@media only screen and (max-width:396px){
+    .boton{
+        width:82.5vw;
+    }
+}
+
+@media only screen and (max-width:501px){
+    h1{
+        font-size: 30px;
+    }
+}

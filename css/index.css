@@ -1,4 +1,5 @@
 /* Importación de las fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Cardo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Shippori+Antique+B1&display=swap');
 *{
 	margin: 0;
@@ -16,6 +17,7 @@ body{
 
 /* Contenedor */
 #container{
+	display:flex;
 	width:100vw;
 	height:100vh;
 	animation-name: oscurecerse;
@@ -42,15 +44,24 @@ body{
 	animation-duration: 1s;
 }
 
+/* Logo y título */
+.flex-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
 /* Logo del león */
 #logo{
-	width: 10vw;
+	width: 180px;
 }
 /* Título principal */
 h1{
 	font-size: 62px;
-	font-family: 'Shippori Antique B1', sans-serif;
+	font-family: 'Cardo', serif;
 	text-align: center;
+	color: #EBBF00;
 }
 /* Título 2 */
 #centro > h2{
@@ -58,9 +69,14 @@ h1{
 	font-family: 'Playfair Display', serif;
 	text-align: center;
 }
+/* Título 3 */
+h3{
+	text-align: center;
+	font-family: 'Shippori Antique B1', sans-serif;
+}
 
 /* Todo lo que está en el medio */
-#centro > h2, #centro > h1, #centro > a, #centro >h3, #centro >h4{
+#centro > h2, #centro > h1, #centro > a, #centro >h3, #centro >h4, .prox-container{
 	margin-bottom: 30px;
 }
 
@@ -103,10 +119,33 @@ a{
 }
 
 /* Primer boton */
-#conocenos{
+ .prox-container {
+	position: relative;
+  }
+  
+  #proximamente {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: rgba(50, 50, 50, 0.7);
+	padding: 5px 10px;
+	border-radius: 5px;
+	z-index: 2;
+	width:100%;
+	height:100%;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+  }
+  #sitio-web {
+	position: relative;
+	z-index: 1;
+  }
+ #conocenos{
 	background: #cfef00;
-}
-#conocenos:hover {
+ }
+ #conocenos:hover {
  	background: #a6c900;
 }
 
