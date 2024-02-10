@@ -76,7 +76,7 @@ h3{
 }
 
 /* Todo lo que está en el medio */
-#centro > h2, #centro > h1, #centro > a, #centro >h3, #centro >h4, .prox-container{
+#centro > h2, #centro > h1, #centro > a, #centro >h3, #centro >h4, #centro>.boton, .prox-container{
 	margin-bottom: 30px;
 }
 
@@ -157,40 +157,7 @@ a{
 	background: #0EB0C9;
 }
 
-/* Botón de atrás */
-.atras {
-	display: flex;
-	height: 4em;
-	width: 100px;
-	align-items: center;
-	justify-content: center;
-	background-color: #eeeeee4b;
-	border-radius: 3px;
-	letter-spacing: 1px;
-	transition: all 0.2s linear;
-	cursor: pointer;
-	border: none;
-	background: #fff;
-	padding: 20px;
-	margin-bottom: 20px;
-   }
-   
-   .atras > svg {
-	margin-right: 5px;
-	margin-left: 5px;
-	font-size: 20px;
-	transition: all 0.4s ease-in;
-   }
-   
-   .atras:hover > svg {
-	font-size: 1.2em;
-	transform: translateX(-5px);
-   }
-   
-   .atras:hover {
-	box-shadow: 9px 9px 33px #d1d1d1, -9px -9px 33px #ffffff;
-	transform: translateY(-2px);
-   }
+
 
 /* Boton de Instagram */
 #instagram{
@@ -199,33 +166,26 @@ a{
 #instagram:hover{
 	background: #C50500;
 }
-/* Boton de Threads */
-#threads{
-	background: #EEE;
-}
-#threads:hover{
-	background: #AAA;
-}
 
 /* Botones ocultos */
 .oculto{
-	display: none;
+	display: none !important;
 }
 
 /* Botón de tutorías */
-#tutoria{
+#tutorias{
 	background: #00CC31;
 }
-#tutoria:hover{
+#tutorias:hover{
 	background: #009C24;
 }
 
 /* Botón de Repositorio */
 #rep{
-	background: #E0127D;
+	background: #4285F4;
 }
 #rep:hover{
-	background: #A60F69;
+	background: #425FF4;
 }
 
 /* Último botón */

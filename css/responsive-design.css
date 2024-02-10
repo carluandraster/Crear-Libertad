@@ -13,7 +13,7 @@
         height:25vh;
         width: auto;
     }
-    #centro > h2, #centro > h1, #centro > a, #centro >h3, #centro >h4, .prox-container{
+    #centro > h2, #centro > h1, #centro > a, #centro >h3, #centro >h4, .prox-container, #centro > .boton{
         margin-bottom: 2vw;
     }
 }
@@ -25,7 +25,7 @@
         width:40vw;
         height:auto;
     }
-    #centro > h2, #centro > h1, #centro > a, #centro >h3, #centro >h4, .prox-container{
+    #centro > h2, #centro > h1, #centro > a, #centro >h3, #centro >h4, .prox-container, #centro > .boton{
         margin-bottom: 2vw;
     }
 }
