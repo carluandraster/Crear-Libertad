@@ -80,3 +80,10 @@ new Articulo(
     "Nuestra postura en este tema controversial",
     "derechos_humanos.html"
 ).mostrarse();
+
+new Articulo(
+    "acta.jpg",
+    "ACTAS",
+    "Informáte mejor sobre las reuniones de comisión directiva",
+    "actas.html"
+).mostrarse();
