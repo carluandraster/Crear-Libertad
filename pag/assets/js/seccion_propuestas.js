@@ -10,17 +10,24 @@ class Articulo {
 
     mostrarse() {
         let cuadro = document.createElement("article");
-        cuadro.innerHTML = `<a href="${this.link}" class="image"><img src="${this.imagen}" alt="" /></a>
+        cuadro.innerHTML = `<a href="Propuestas/${this.link}" class="image"><img src="images/${this.imagen}" alt="" /></a>
 							<h3 class="major">${this.titulo}</h3>
 							<p>${this.descripcion}</p>
-							<a href="${this.link}" class="special">Leer más</a>`;
+							<a href="Propuestas/${this.link}" class="special">Leer más</a>`;
         seccionProp.appendChild(cuadro);
     }
 }
 
 new Articulo(
-    "images/20240715_093738.jpg",
+    "20240715_093738.jpg",
     "IMPRESIONES Y KIOSCO",
-    "Descubre cómo tenemos pensado ofrecer productos de mejor calidad a un mejor precio",
-    "Propuestas/fotocopiadora.html"
+    "Descubrí cómo tenemos pensado ofrecer productos de mejor calidad a un mejor precio",
+    "fotocopiadora.html"
+).mostrarse();
+
+new Articulo(
+    "redes.png",
+    "PRENSA Y DIFUSIÓN",
+    "Propuestas sobre cómo difundir las noticias del CEI",
+    "redes-sociales.html"
 ).mostrarse();
