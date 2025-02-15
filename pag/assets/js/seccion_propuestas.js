@@ -47,7 +47,7 @@ new Articulo(
 ).mostrarse();
 
 new Articulo(
-    "extension.avif",
+    "Captura de pantalla 2025-02-15 183347.png",
     "EXTENSIÓN Y POSGRADO",
     "Por un centro que prepare a los estudiantes de cara al futuro",
     "extension_posgrado.html"
