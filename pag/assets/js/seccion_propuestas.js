@@ -47,5 +47,8 @@ new Articulo(
 ).mostrarse();
 
 new Articulo(
-    
-)
+    "extension.avif",
+    "EXTENSIÓN Y POSGRADO",
+    "Por un centro que prepare a los estudiantes de cara al futuro",
+    "extension_posgrado.html"
+).mostrarse();
