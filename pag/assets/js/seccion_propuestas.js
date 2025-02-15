@@ -66,3 +66,10 @@ new Articulo(
     "Mirá quiénes son nuestros aliados",
     "relaciones_publicas.html"
 ).mostrarse();
+
+new Articulo(
+    "CasaRosada.png",
+    "REALIDAD NACIONAL",
+    "Que no te mientan. El gobierno nacional no es como te dice la casta universitaria",
+    "realidad_nacional.html"
+).mostrarse();
