@@ -38,3 +38,14 @@ new Articulo(
     "Así cuidaremos tu bolsillo",
     "tesoreria.html"
 ).mostrarse();
+
+new Articulo(
+    "asuntos-academicos.jpg",
+    "ASUNTOS ACADÉMICOS Y BIENESTAR",
+    "Por un CEI al servicio de los estudiantes",
+    "asuntos_academicos.html"
+).mostrarse();
+
+new Articulo(
+    
+)
