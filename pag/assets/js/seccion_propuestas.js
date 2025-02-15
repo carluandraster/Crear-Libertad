@@ -75,7 +75,7 @@ new Articulo(
 ).mostrarse();
 
 new Articulo(
-    "libertad.avif",
+    "Libertad.png",
     "DERECHOS HUMANOS",
     "Nuestra postura en este tema controversial",
     "derechos_humanos.html"
