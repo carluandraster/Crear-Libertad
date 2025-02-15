@@ -18,4 +18,4 @@ class Articulo {
     }
 }
 
-Articulo("")
+Articulo("images/20240715_093738.jpg", "IMPRESIONES Y KIOSCO", "Descubre cómo tenemos pensado ofrecer productos de mejor calidad a un mejor precio", "Propuestas/fotocopiadora.html").mostrarse();
