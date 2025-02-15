@@ -1,4 +1,4 @@
-const seccionProp = document.querySelector("#four .features")
+const seccionProp = document.querySelector("#four .inner .features");
 
 class Articulo {
     constructor(imagen,titulo,descripcion,link) {
@@ -9,7 +9,7 @@ class Articulo {
     }
 
     mostrarse() {
-        cuadro = document.createElement("article");
+        let cuadro = document.createElement("article");
         cuadro.innerHTML = `<a href="${this.link}" class="image"><img src="${this.imagen}" alt="" /></a>
 							<h3 class="major">${this.titulo}</h3>
 							<p>${this.descripcion}</p>
@@ -18,4 +18,9 @@ class Articulo {
     }
 }
 
-Articulo("images/20240715_093738.jpg", "IMPRESIONES Y KIOSCO", "Descubre cómo tenemos pensado ofrecer productos de mejor calidad a un mejor precio", "Propuestas/fotocopiadora.html").mostrarse();
+new Articulo(
+    "images/20240715_093738.jpg",
+    "IMPRESIONES Y KIOSCO",
+    "Descubre cómo tenemos pensado ofrecer productos de mejor calidad a un mejor precio",
+    "Propuestas/fotocopiadora.html"
+).mostrarse();
