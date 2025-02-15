@@ -52,3 +52,7 @@ new Articulo(
     "Por un centro que prepare a los estudiantes de cara al futuro",
     "extension_posgrado.html"
 ).mostrarse();
+
+new Articulo(
+    ""
+)
