@@ -31,3 +31,10 @@ new Articulo(
     "Propuestas sobre cómo difundir las noticias del CEI",
     "redes-sociales.html"
 ).mostrarse();
+
+new Articulo(
+    "tesoreria.png",
+    "FINANZAS",
+    "Así cuidaremos tu bolsillo",
+    "tesoreria.html"
+).mostrarse();
