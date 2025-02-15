@@ -73,3 +73,10 @@ new Articulo(
     "Que no te mientan. El gobierno nacional no es como te dice la casta universitaria",
     "realidad_nacional.html"
 ).mostrarse();
+
+new Articulo(
+    "libertad.avif",
+    "DERECHOS HUMANOS",
+    "Nuestra postura en este tema controversial",
+    "derechos_humanos.html"
+).mostrarse();
