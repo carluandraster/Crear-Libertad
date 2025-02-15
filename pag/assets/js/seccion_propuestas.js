@@ -54,5 +54,8 @@ new Articulo(
 ).mostrarse();
 
 new Articulo(
-    ""
-)
+    "futbol.jpg",
+    "DEPORTES",
+    "Mente sano en cuerpo sano. Te contamos cómo vamos a promover el deporte",
+    "deportes.html"
+).mostrarse();
