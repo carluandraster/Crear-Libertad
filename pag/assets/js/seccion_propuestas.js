@@ -59,3 +59,10 @@ new Articulo(
     "Mente sano en cuerpo sano. Te contamos cómo vamos a promover el deporte",
     "deportes.html"
 ).mostrarse();
+
+new Articulo(
+    "relaciones_publicas.jpg",
+    "RELACIONES PÚBLICAS",
+    "Mirá quiénes son nuestros aliados",
+    "relaciones_publicas.html"
+).mostrarse();
