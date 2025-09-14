@@ -59,9 +59,10 @@ body{
 /* Título principal */
 h1{
 	font-size: 62px;
-	font-family: 'Cardo', serif;
+	font-family: 'Montserrat', serif;
 	text-align: center;
 	color: #EBBF00;
+	font-weight: bold;
 }
 /* Título 2 */
 #centro > h2{
